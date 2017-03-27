@@ -42,12 +42,16 @@ html {
   border-radius: 1.5em 1.5em 0 0;
   font-weight: bold;
   color: aliceblue;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Coat_of_arms_of_Saint_Lucia.svg/1129px-Coat_of_arms_of_Saint_Lucia.svg.png) no-repeat 2% center;
+  background-size: contain;
 }
 
 /* Specificity/weight here is 11 i.e 10+1=11 */
 .card footer {
   background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
   border-radius: 0 0 1.5em 1.5em;
+  background: url(http://cdn.countryflags.com/thumbs/saint-lucia/flag-3d-250.png) no-repeat 99% center;
+  background-size: 5rem 3rem;
 }
 
 .card header, .card footer {
@@ -93,6 +97,10 @@ h2::first-line {
   word-spacing: 0.4em;
 }
 
+footer {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Coat_of_arms_of_Saint_Lucia.svg/1129px-Coat_of_arms_of_Saint_Lucia.svg.png);
+}
+
 /* .......................Styles speciifc to the main business card contents........... */
 
 .card article {
@@ -105,7 +113,7 @@ h2::first-line {
 .card article img {
   max-height: 100%;
   float: right;
-  width: 33%;
+  width: 30%;
 }
 
 .card article p {
